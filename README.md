@@ -1,6 +1,6 @@
-# 👋 Hey !, 
+# 👋 Hey! 
 
-<h1>I'm Jeel Butani 🧑🏻‍💻</h1>
+<h1>I'm Jeel Butani 🧑🏻‍💻😀</h1>
 
 🎓 B.Tech student in ICT at Marwadi University (3rd Year) | 📍 Rajkot, Gujarat
 
