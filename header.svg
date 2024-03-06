@@ -1,5 +1,5 @@
-<svg fill="none" width="200%" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="150%" height="100%">
+<svg fill="none" width="220%" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="160%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .wrapper {
@@ -18,18 +18,18 @@
                     background: linear-gradient(90deg, rgba(0, 241, 220, 1) 0%, rgba(86, 115, 241, 1) 44%, rgba(103, 68, 241, 1) 54%, rgba(254, 0, 255, 1) 100%);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
-                    animation: typing 12s steps(60) infinite;
+                    animation: typing 8s steps(40) infinite;
                 }
 
                 @keyframes typing {
-                    0% {
+                    0%, 10% {
                         width: 0;
                     }
-                    50% {
+                    20%, 30% {
                         width: 30ch;
                     }
-                    100% {
-                        width: 30ch;
+                    40%, 100% {
+                        width: 0;
                     }
                 }
             </style>
