@@ -9,11 +9,9 @@
                 }
 
                 .text {
-                    width: 20ch; /* Adjust width as needed */
-                    animation: typing 3s steps(14), erase 3s steps(14) 3s forwards, typing2 3s steps(21) 6s forwards;
+                    display: inline-block;
                     white-space: nowrap;
                     overflow: hidden;
-                    border-right: 3px solid;
                     font-family: monospace;
                     font-size: 4em;
                     background: linear-gradient(90deg, rgba(0, 241, 220, 1) 0%, rgba(86, 115, 241, 1) 44%, rgba(103, 68, 241, 1) 54%, rgba(254, 0, 255, 1) 100%);
@@ -21,17 +19,16 @@
                     -webkit-text-fill-color: transparent;
                 }
 
-                @keyframes typing {
-                    from {
-                        width: 0;
-                    }
+                .typing1 {
+                    animation: typing1 3s steps(21), blink1 .5s step-end 3s infinite alternate;
                 }
 
-                @keyframes erase {
+                .typing2 {
+                    animation: typing2 3s steps(21) 6s forwards, blink2 .5s step-end 9s infinite alternate;
+                }
+
+                @keyframes typing1 {
                     from {
-                        width: 20ch; /* Adjust width as needed */
-                    }
-                    to {
                         width: 0;
                     }
                 }
@@ -40,18 +37,30 @@
                     from {
                         width: 0;
                     }
-                    to {
-                        width: 20ch; /* Adjust width as needed */
+                }
+
+                @keyframes blink1 {
+                    from, to {
+                        border-color: transparent;
+                    }
+                    50% {
+                        border-color: rgba(254, 0, 255, 1);
+                    }
+                }
+
+                @keyframes blink2 {
+                    from, to {
+                        border-color: transparent;
+                    }
+                    50% {
+                        border-color: rgba(254, 0, 255, 1);
                     }
                 }
             </style>
             <div class="wrapper">
-                <div class="text">
-                    I am Jeel Butani 
-                </div>
-               
-                <div class="text">
-                    Full stack web developer
+                <div>
+                    <span class="text typing1">I am Jeel Butani</span><br>
+                    <span class="text typing2">Full stack web developer</span>
                 </div>
             </div>
         </div>
