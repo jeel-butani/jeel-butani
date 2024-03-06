@@ -24,6 +24,9 @@
                     0% {
                         width: 0;
                     }
+                    30% {
+                        width: 0;
+                    }
                     50% {
                         width: 30ch;
                     }
@@ -34,6 +37,9 @@
 
                 @keyframes typing2 {
                     0% {
+                        width: 0;
+                    }
+                    50% {
                         width: 0;
                     }
                     100% {
