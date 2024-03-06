@@ -54,6 +54,7 @@
                     100% {
                         width: 30ch;
                     }
+                }
                 .text:nth-child(2) {
                     animation: typing2 6s steps(20) infinite;
                     animation-delay: 6s; /* Delay the second animation */
