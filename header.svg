@@ -9,7 +9,7 @@
                 }
 
                 .text {
-                    width: 20ch; /* Adjust width as needed */
+                    width: 30ch; /* Adjust width as needed */
                     animation: typing 3s steps(14), erase 3s steps(14) 3s forwards, typing 3s steps(21) 6s;
                     white-space: nowrap;
                     overflow: hidden;
