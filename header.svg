@@ -9,7 +9,7 @@
                 }
 
                 .text {
-                    width: 20ch; /* Adjust width as needed */
+                    width: 30ch; /* Adjust width as needed */
                     white-space: nowrap;
                     overflow: hidden;
                     border-right: 3px solid;
@@ -18,15 +18,21 @@
                     background: linear-gradient(90deg, rgba(0, 241, 220, 1) 0%, rgba(86, 115, 241, 1) 44%, rgba(103, 68, 241, 1) 54%, rgba(254, 0, 255, 1) 100%);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
-                    animation: typing 6s steps(21) infinite;
+                    animation: typing 6s steps(40) infinite;
                 }
 
                 @keyframes typing {
                     0% {
                         width: 0;
                     }
+                    25% {
+                        width: 30ch;
+                    }
                     50% {
-                        width: 20ch; /* Adjust width as needed */
+                        width: 0;
+                    }
+                    75% {
+                        width: 30ch;
                     }
                     100% {
                         width: 0;
@@ -35,7 +41,9 @@
             </style>
             <div class="wrapper">
                 <div class="text">
-                    I am Jeel Butani <br/> Full stack web developer
+                    I am Jeel Butani
+                    <br/>
+                    Full stack developer
                 </div>
             </div>
         </div>
