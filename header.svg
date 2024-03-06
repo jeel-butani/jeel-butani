@@ -20,33 +20,40 @@
                     -webkit-text-fill-color: transparent;
                 }
 
-                @keyframes typing1 {
+                @keyframes typing {
                     0% {
                         width: 0;
+                    }
+                    10% {
+                        width: 30ch;
+                    }
+                    20% {
+                        width: 30ch;
                     }
                     30% {
                         width: 0;
                     }
+                    40% {
+                        width: 0;
+                    }
                     50% {
+                        width: 30ch;
+                    }
+                    60% {
+                        width: 30ch;
+                    }
+                    70% {
+                        width: 0;
+                    }
+                    80% {
+                        width: 0;
+                    }
+                    90% {
                         width: 30ch;
                     }
                     100% {
                         width: 30ch;
                     }
-                }
-
-                @keyframes typing2 {
-                    0% {
-                        width: 0;
-                    }
-                    50% {
-                        width: 0;
-                    }
-                    100% {
-                        width: 30ch;
-                    }
-                }
-
                 .text:nth-child(2) {
                     animation: typing2 6s steps(20) infinite;
                     animation-delay: 6s; /* Delay the second animation */
