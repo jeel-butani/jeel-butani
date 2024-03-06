@@ -1,5 +1,5 @@
-<svg fill="none" width="200%" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="150%" height="100%">
+<svg fill="none" width="220%" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="175%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .wrapper {
@@ -25,14 +25,35 @@
                     0% {
                         width: 0;
                     }
+                    10% {
+                        width: 30ch;
+                    }
+                    20% {
+                        width: 30ch;
+                    }
                     30% {
+                        width: 0;
+                    }
+                    40% {
+                        width: 0;
+                    }
+                    50% {
+                        width: 30ch;
+                    }
+                    60% {
                         width: 30ch;
                     }
                     70% {
+                        width: 0;
+                    }
+                    80% {
+                        width: 0;
+                    }
+                    90% {
                         width: 30ch;
                     }
                     100% {
-                        width: 0;
+                        width: 30ch;
                     }
                 }
             </style>
@@ -40,7 +61,7 @@
                 <div class="text">
                     I am Jeel Butani
                     <br/>
-                    Full stack developer
+                    Full Stack web developer
                 </div>
             </div>
         </div>
