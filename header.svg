@@ -9,8 +9,8 @@
                 }
 
                 .text {
-                    width: 30ch; /* Adjust width as needed */
-                    animation: typing 3s steps(14), erase 3s steps(14) 3s forwards, typing 3s steps(21) 6s;
+                    width: 20ch; /* Adjust width as needed */
+                    animation: typing 3s steps(14), erase 3s steps(14) 3s forwards, typing2 3s steps(21) 6s forwards;
                     white-space: nowrap;
                     overflow: hidden;
                     border-right: 3px solid;
@@ -33,6 +33,15 @@
                     }
                     to {
                         width: 0;
+                    }
+                }
+
+                @keyframes typing2 {
+                    from {
+                        width: 0;
+                    }
+                    to {
+                        width: 20ch; /* Adjust width as needed */
                     }
                 }
             </style>
