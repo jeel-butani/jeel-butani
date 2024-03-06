@@ -9,7 +9,7 @@
                 }
 
                 .text {
-                    width: 30ch; /* Adjust width as needed */
+                    width: 30ch;
                     white-space: nowrap;
                     overflow: hidden;
                     border-right: 3px solid;
@@ -20,23 +20,30 @@
                     -webkit-text-fill-color: transparent;
                 }
 
-                @keyframes typing {
+                @keyframes typing1 {
                     0% {
                         width: 0;
                     }
-                    30% {
-                        width: 30ch;
-                    }
-                    70% {
+                    50% {
                         width: 30ch;
                     }
                     100% {
-                        width: 0;
+                        width: 30ch;
                     }
                 }
+
+                @keyframes typing2 {
+                    0% {
+                        width: 0;
+                    }
+                    100% {
+                        width: 30ch;
+                    }
+                }
+
                 .text:nth-child(2) {
                     animation: typing2 6s steps(20) infinite;
-                    animation-delay: 6s; /* Delay the second animation */
+                    animation-delay: 6s; 
                 }
 
                 .text:nth-child(1) {
