@@ -20,44 +20,38 @@
                     -webkit-text-fill-color: transparent;
                 }
 
-                @keyframes typing1 {
+                @keyframes typing {
                     0% {
                         width: 0;
                     }
-                    50% {
+                    30% {
+                        width: 30ch;
+                    }
+                    70% {
                         width: 30ch;
                     }
                     100% {
-                        width: 30ch;
-                    }
-                }
-
-                @keyframes typing2 {
-                    0% {
                         width: 0;
                     }
-                    100% {
-                        width: 30ch;
-                    }
-                }
-
-                .text:nth-child(2) {
-                    animation: typing2 6s steps(20) infinite;
-                    animation-delay: 6s; /* Delay the second animation */
-                }
-
-                .text:nth-child(1) {
-                    animation: typing1 6s steps(20) infinite;
                 }
             </style>
             <div class="wrapper">
-                <div class="text">
+                <div class="text" id="text1">
                     I am Jeel Butani
                 </div>
-                <div class="text">
+                <div class="text" id="text2" style="display: none;">
                     Full Stack web developer
                 </div>
             </div>
+            <script>
+                setTimeout(function () {
+                    document.getElementById('text1').style.animation = 'typing 8s steps(40) infinite';
+                    setTimeout(function () {
+                        document.getElementById('text2').style.display = 'block';
+                        document.getElementById('text2').style.animation = 'typing 8s steps(40) infinite';
+                    }, 8000);
+                }, 0);
+            </script>
         </div>
     </foreignObject>
 </svg>
