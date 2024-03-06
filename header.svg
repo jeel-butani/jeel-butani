@@ -1,4 +1,4 @@
-<svg fill="none" width="200%" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" width="250%" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="150%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
@@ -20,38 +20,44 @@
                     -webkit-text-fill-color: transparent;
                 }
 
-                @keyframes typing {
+                @keyframes typing1 {
                     0% {
                         width: 0;
                     }
-                    30% {
-                        width: 30ch;
-                    }
-                    70% {
+                    50% {
                         width: 30ch;
                     }
                     100% {
+                        width: 30ch;
+                    }
+                }
+
+                @keyframes typing2 {
+                    0% {
                         width: 0;
                     }
+                    100% {
+                        width: 30ch;
+                    }
+                }
+
+                .text:nth-child(2) {
+                    animation: typing2 6s steps(20) infinite;
+                    animation-delay: 6s; /* Delay the second animation */
+                }
+
+                .text:nth-child(1) {
+                    animation: typing1 6s steps(20) infinite;
                 }
             </style>
             <div class="wrapper">
-                <div class="text" id="text1">
+                <div class="text">
                     I am Jeel Butani
                 </div>
-                <div class="text" id="text2" style="display: none;">
-                    Full Stack web developer
+                <div class="text">
+                    Full Stack Webdeveloper
                 </div>
             </div>
-            <script>
-                setTimeout(function () {
-                    document.getElementById('text1').style.animation = 'typing 8s steps(40) infinite';
-                    setTimeout(function () {
-                        document.getElementById('text2').style.display = 'block';
-                        document.getElementById('text2').style.animation = 'typing 8s steps(40) infinite';
-                    }, 8000);
-                }, 0);
-            </script>
         </div>
     </foreignObject>
 </svg>
