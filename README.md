@@ -1,10 +1,6 @@
 # 👋 Hey! 
 
-<div align="center">
-	<a class="link" href="https://github.com/codeflowjs/codeflowjs/blame/main/header.svg">
-		<img class="image" src="header.svg" alt="Click to see the source">
-	</a>
-</div>
+<img src="https://readme-typing-svg.herokuapp.com/?lines=🙋🏻‍♂Welcome to my GitHub profile;👦🏻I'm Jeel Butani;🔗%20Software%20Engineer;👨‍💻%20Fullstack%20Web%20Developer;📲%20Android%20App%20Developer;🤝%203%2B%20years%20of%20coding%20experience;🔰%20Always%20learning%20new%20tech&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45%22">
 
 🎓 B.Tech student in ICT at Marwadi University (3rd Year) | 📍 Rajkot, Gujarat
 
