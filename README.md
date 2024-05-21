@@ -8,7 +8,7 @@
 
 🎓 B.Tech student in ICT at Marwadi University (4rd Year) | 📍 Rajkot, Gujarat
 
-📞 +91-9879735128 | 📧 butanijeel1@gmail.com |  
+📞 +91-9879735128 | 📧 butanijeel1@gmail.com 
 
 ## 🧑🏻‍💻 Portfolio:
 [![Portfolio](https://img.shields.io/badge/MyPortfolio-9cf)](https://jeel-portfolio.vercel.app/)
