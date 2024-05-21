@@ -1,12 +1,14 @@
-# 👋 Hey! 
+<div align="center">
+  <h1>👋 Hey!</h1>
+</div>
 
-<img src="https://readme-typing-svg.herokuapp.com/?lines=🙋🏻‍♂%20Welcome%20to%20my%20GitHub%20profile;👦🏻%20I'm%20Jeel%20Butani;🔗%20Software%20Engineer;👨‍💻%20Fullstack%20Web%20Developer;📲%20Android%20App%20Developer;🤝%203%2B%20years%20of%20coding%20experience;🔰%20Always%20learning%20new%20tech&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45">
+<div align="center"><img src="https://readme-typing-svg.herokuapp.com/?lines=🙋🏻‍♂%20Welcome%20to%20my%20GitHub%20profile;👦🏻%20I'm%20Jeel%20Butani;🔗%20Software%20Engineer;👨‍💻%20Fullstack%20Web%20Developer;📲%20Android%20App%20Developer;🤝%203%2B%20years%20of%20coding%20experience;🔰%20Always%20learning%20new%20tech&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45"></div>
 
 ![Navy And White Geometric Technology  LinkedIn Banner](https://github.com/jeel-butani/jeel-butani/assets/104854130/31a10718-9169-49e7-8163-45cfae7ec924)
 
-🎓 B.Tech student in ICT at Marwadi University (3rd Year) | 📍 Rajkot, Gujarat
+🎓 B.Tech student in ICT at Marwadi University (4rd Year) | 📍 Rajkot, Gujarat
 
-📞 +91-9879735128 | 📧 butanijeel1@gmail.com
+📞 +91-9879735128 | 📧 butanijeel1@gmail.com | 🧑🏻‍💻 https://jeel-portfolio.vercel.app/
 
 
 ## 🌐 Socials:
