@@ -6,9 +6,8 @@
 
 ![Navy And White Geometric Technology  LinkedIn Banner](https://github.com/jeel-butani/jeel-butani/assets/104854130/31a10718-9169-49e7-8163-45cfae7ec924)
 
-🎓 B.Tech student in ICT at Marwadi University (4rd Year) | 📍 Rajkot, Gujarat
+🎓 B.Tech student in ICT at Marwadi University (4rd Year) | 📍 Rajkot, Gujarat | 📞 +91-9879735128 
 
-📞 +91-9879735128 | 📧 butanijeel1@gmail.com 
 
 ## 🧑🏻‍💻 Portfolio:
 [![Portfolio](https://img.shields.io/badge/MyPortfolio-9cf)](https://jeel-portfolio.vercel.app/)
